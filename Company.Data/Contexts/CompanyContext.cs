@@ -25,6 +25,7 @@ public class CompanyContext : DbContext
     {
         base.OnModelCreating(builder);
         builder.Entity<EmployeeTitle>().HasKey(et => new { et.EmployeeId, et.TitleId });
+        SeedData(builder);
     }
 
     private void SeedData(ModelBuilder builder)

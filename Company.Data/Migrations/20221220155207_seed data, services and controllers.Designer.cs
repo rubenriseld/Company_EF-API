@@ -4,6 +4,7 @@ using Companies.Data.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Companies.Data.Migrations
 {
     [DbContext(typeof(CompanyContext))]
-    partial class CompanyContextModelSnapshot : ModelSnapshot
+    [Migration("20221220155207_seed data, services and controllers")]
+    partial class seeddataservicesandcontrollers
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -43,14 +46,6 @@ namespace Companies.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Companies");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Name = "SweCo",
-                            OrganisationNumber = "2154516238"
-                        });
                 });
 
             modelBuilder.Entity("Companies.Data.Entities.Department", b =>
@@ -74,26 +69,6 @@ namespace Companies.Data.Migrations
                     b.HasIndex("CompanyId");
 
                     b.ToTable("Departments");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CompanyId = 1,
-                            Name = "IT"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            CompanyId = 1,
-                            Name = "HR"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            CompanyId = 1,
-                            Name = "Management"
-                        });
                 });
 
             modelBuilder.Entity("Companies.Data.Entities.Employee", b =>
@@ -129,71 +104,6 @@ namespace Companies.Data.Migrations
                     b.HasIndex("DepartmentId");
 
                     b.ToTable("Employees");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            DepartmentId = 3,
-                            FirstName = "Lars",
-                            IsUnionMember = false,
-                            LastName = "Andersson",
-                            Salary = 45000m
-                        },
-                        new
-                        {
-                            Id = 2,
-                            DepartmentId = 3,
-                            FirstName = "William",
-                            IsUnionMember = true,
-                            LastName = "Eklund",
-                            Salary = 32000m
-                        },
-                        new
-                        {
-                            Id = 3,
-                            DepartmentId = 3,
-                            FirstName = "Selma",
-                            IsUnionMember = true,
-                            LastName = "Wikström",
-                            Salary = 35000m
-                        },
-                        new
-                        {
-                            Id = 4,
-                            DepartmentId = 1,
-                            FirstName = "Adam",
-                            IsUnionMember = false,
-                            LastName = "Lundin",
-                            Salary = 31500m
-                        },
-                        new
-                        {
-                            Id = 5,
-                            DepartmentId = 1,
-                            FirstName = "Eva",
-                            IsUnionMember = true,
-                            LastName = "Nyberg",
-                            Salary = 31000m
-                        },
-                        new
-                        {
-                            Id = 6,
-                            DepartmentId = 1,
-                            FirstName = "Johan",
-                            IsUnionMember = true,
-                            LastName = "Blomqvist",
-                            Salary = 34000m
-                        },
-                        new
-                        {
-                            Id = 7,
-                            DepartmentId = 2,
-                            FirstName = "Anna",
-                            IsUnionMember = true,
-                            LastName = "Löfgren",
-                            Salary = 29000m
-                        });
                 });
 
             modelBuilder.Entity("Companies.Data.Entities.EmployeeTitle", b =>
@@ -209,53 +119,6 @@ namespace Companies.Data.Migrations
                     b.HasIndex("TitleId");
 
                     b.ToTable("EmployeeTitles");
-
-                    b.HasData(
-                        new
-                        {
-                            EmployeeId = 1,
-                            TitleId = 5
-                        },
-                        new
-                        {
-                            EmployeeId = 2,
-                            TitleId = 4
-                        },
-                        new
-                        {
-                            EmployeeId = 3,
-                            TitleId = 6
-                        },
-                        new
-                        {
-                            EmployeeId = 4,
-                            TitleId = 1
-                        },
-                        new
-                        {
-                            EmployeeId = 5,
-                            TitleId = 1
-                        },
-                        new
-                        {
-                            EmployeeId = 5,
-                            TitleId = 2
-                        },
-                        new
-                        {
-                            EmployeeId = 6,
-                            TitleId = 1
-                        },
-                        new
-                        {
-                            EmployeeId = 6,
-                            TitleId = 3
-                        },
-                        new
-                        {
-                            EmployeeId = 7,
-                            TitleId = 7
-                        });
                 });
 
             modelBuilder.Entity("Companies.Data.Entities.Title", b =>
@@ -274,43 +137,6 @@ namespace Companies.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Titles");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Name = "Developer"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Name = "Database Administrator"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Name = "Project Manager"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Name = "HR Director"
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Name = "CEO"
-                        },
-                        new
-                        {
-                            Id = 6,
-                            Name = "IT Director"
-                        },
-                        new
-                        {
-                            Id = 7,
-                            Name = "Recruiter"
-                        });
                 });
 
             modelBuilder.Entity("EmployeeTitle", b =>
