@@ -1,12 +1,7 @@
-﻿using Company.Data.Interfaces;
-using System;
-using System.Collections.Generic;
+﻿using Companies.Data.Interfaces;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Company.Data.Entities
+namespace Companies.Data.Entities
 {
     public class Company : IEntity
     {

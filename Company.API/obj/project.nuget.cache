@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5SChqTFSkSrf/exlo0g8zUfiYi6TbtwQwIvgE7ldyHm+qp/0Xm8qIkYCBStcNGkHnT4Fw+pQVlSjajm7bL2ApQ==",
+  "dgSpecHash": "tF7KN6AmbvjExo29lfdUoncMcftVcxmkUJ2szDAgNyexii+/Wpq96NA+GLFwdt9pb2/4KobOvaMyoDKam6gS/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.API\\Company.API.csproj",
+  "projectFilePath": "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.API\\Companies.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ruben\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\ruben\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

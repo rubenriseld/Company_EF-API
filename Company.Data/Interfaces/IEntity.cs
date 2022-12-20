@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Company.Data.Interfaces;
+namespace Companies.Data.Interfaces;
 
 public interface IEntity
 {

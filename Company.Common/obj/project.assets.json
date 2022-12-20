@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.Common\\Company.Common.csproj",
-      "projectName": "Company.Common",
-      "projectPath": "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.Common\\Company.Common.csproj",
+      "projectUniqueName": "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.Common\\Companies.Common.csproj",
+      "projectName": "Companies.Common",
+      "projectPath": "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.Common\\Companies.Common.csproj",
       "packagesPath": "C:\\Users\\ruben\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.Common\\obj\\",
       "projectStyle": "PackageReference",

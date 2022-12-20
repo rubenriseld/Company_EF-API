@@ -1,11 +1,6 @@
-﻿using Company.Data.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Companies.Data.Interfaces;
 
-namespace Company.Data.Entities;
+namespace Companies.Data.Entities;
 
 public class EmployeeTitle : IReferenceEntity
 {

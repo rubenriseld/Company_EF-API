@@ -21,8 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Company.Common\Company.Common.csproj" />
-    <ProjectReference Include="..\Company.Data\Company.Data.csproj" />
+    <ProjectReference Include="..\Company.Common\Companies.Common.csproj" />
+    <ProjectReference Include="..\Company.Data\Companies.Data.csproj" />
   </ItemGroup>
 
 </Project>

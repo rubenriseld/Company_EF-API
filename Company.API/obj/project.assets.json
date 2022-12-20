@@ -1259,30 +1259,31 @@
           }
         }
       },
-      "Company.Common/1.0.0": {
+      "Companies.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Company.Common.dll": {}
+          "bin/placeholder/Companies.Common.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Company.Common.dll": {}
+          "bin/placeholder/Companies.Common.dll": {}
         }
       },
-      "Company.Data/1.0.0": {
+      "Companies.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "12.0.0",
-          "Company.Common": "1.0.0",
+          "Companies.Common": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.1",
-          "Microsoft.EntityFrameworkCore.Relational": "7.0.1"
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1"
         },
         "compile": {
-          "bin/placeholder/Company.Data.dll": {}
+          "bin/placeholder/Companies.Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Company.Data.dll": {}
+          "bin/placeholder/Companies.Data.dll": {}
         }
       }
     }
@@ -3771,22 +3772,22 @@
         "version.txt"
       ]
     },
-    "Company.Common/1.0.0": {
+    "Companies.Common/1.0.0": {
       "type": "project",
-      "path": "../Company.Common/Company.Common.csproj",
-      "msbuildProject": "../Company.Common/Company.Common.csproj"
+      "path": "../Company.Common/Companies.Common.csproj",
+      "msbuildProject": "../Company.Common/Companies.Common.csproj"
     },
-    "Company.Data/1.0.0": {
+    "Companies.Data/1.0.0": {
       "type": "project",
-      "path": "../Company.Data/Company.Data.csproj",
-      "msbuildProject": "../Company.Data/Company.Data.csproj"
+      "path": "../Company.Data/Companies.Data.csproj",
+      "msbuildProject": "../Company.Data/Companies.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 12.0.0",
-      "Company.Common >= 1.0.0",
-      "Company.Data >= 1.0.0",
+      "Companies.Common >= 1.0.0",
+      "Companies.Data >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.1",
@@ -3799,9 +3800,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.API\\Company.API.csproj",
-      "projectName": "Company.API",
-      "projectPath": "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.API\\Company.API.csproj",
+      "projectUniqueName": "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.API\\Companies.API.csproj",
+      "projectName": "Companies.API",
+      "projectPath": "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.API\\Companies.API.csproj",
       "packagesPath": "C:\\Users\\ruben\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.API\\obj\\",
       "projectStyle": "PackageReference",
@@ -3820,11 +3821,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.Common\\Company.Common.csproj": {
-              "projectPath": "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.Common\\Company.Common.csproj"
+            "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.Common\\Companies.Common.csproj": {
+              "projectPath": "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.Common\\Companies.Common.csproj"
             },
-            "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.Data\\Company.Data.csproj": {
-              "projectPath": "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.Data\\Company.Data.csproj"
+            "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.Data\\Companies.Data.csproj": {
+              "projectPath": "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.Data\\Companies.Data.csproj"
             }
           }
         }

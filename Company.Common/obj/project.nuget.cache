@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M+CdqPk+rGY7lVaQjFEDsb2Yqbb01De2HBKRADhbh75JeKTCPz+LtdRprGxmC07GTbXREKGu0untkoyDF6YqYw==",
+  "dgSpecHash": "urpRWmVw4y7K9/nL9mILgkB1wFoC9oddFJh1zMpFGDG6/T7+SQUmPhAbNocSl/4QNDstogoa8u0sVNmHzNNKqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.Common\\Company.Common.csproj",
+  "projectFilePath": "C:\\Users\\ruben\\source\\repos\\db\\Company\\Company.Common\\Companies.Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
