@@ -1,0 +1,15 @@
+C:\Users\ruben\source\repos\db\Company\Company.Data\bin\Debug\net6.0\Companies.Data.deps.json
+C:\Users\ruben\source\repos\db\Company\Company.Data\bin\Debug\net6.0\Companies.Data.dll
+C:\Users\ruben\source\repos\db\Company\Company.Data\bin\Debug\net6.0\Companies.Data.pdb
+C:\Users\ruben\source\repos\db\Company\Company.Data\bin\Debug\net6.0\Companies.Common.dll
+C:\Users\ruben\source\repos\db\Company\Company.Data\bin\Debug\net6.0\Companies.Common.pdb
+C:\Users\ruben\source\repos\db\Company\Company.Data\obj\Debug\net6.0\Companies.Data.csproj.AssemblyReference.cache
+C:\Users\ruben\source\repos\db\Company\Company.Data\obj\Debug\net6.0\Companies.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruben\source\repos\db\Company\Company.Data\obj\Debug\net6.0\Companies.Data.AssemblyInfoInputs.cache
+C:\Users\ruben\source\repos\db\Company\Company.Data\obj\Debug\net6.0\Companies.Data.AssemblyInfo.cs
+C:\Users\ruben\source\repos\db\Company\Company.Data\obj\Debug\net6.0\Companies.Data.csproj.CoreCompileInputs.cache
+C:\Users\ruben\source\repos\db\Company\Company.Data\obj\Debug\net6.0\Companies.Data.csproj.CopyComplete
+C:\Users\ruben\source\repos\db\Company\Company.Data\obj\Debug\net6.0\Companies.Data.dll
+C:\Users\ruben\source\repos\db\Company\Company.Data\obj\Debug\net6.0\refint\Companies.Data.dll
+C:\Users\ruben\source\repos\db\Company\Company.Data\obj\Debug\net6.0\Companies.Data.pdb
+C:\Users\ruben\source\repos\db\Company\Company.Data\obj\Debug\net6.0\ref\Companies.Data.dll

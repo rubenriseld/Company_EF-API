@@ -1,0 +1,12 @@
+C:\Users\ruben\source\repos\db\Company\Company.Common\bin\Debug\net6.0\Companies.Common.deps.json
+C:\Users\ruben\source\repos\db\Company\Company.Common\bin\Debug\net6.0\Companies.Common.dll
+C:\Users\ruben\source\repos\db\Company\Company.Common\bin\Debug\net6.0\Companies.Common.pdb
+C:\Users\ruben\source\repos\db\Company\Company.Common\obj\Debug\net6.0\Companies.Common.csproj.AssemblyReference.cache
+C:\Users\ruben\source\repos\db\Company\Company.Common\obj\Debug\net6.0\Companies.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruben\source\repos\db\Company\Company.Common\obj\Debug\net6.0\Companies.Common.AssemblyInfoInputs.cache
+C:\Users\ruben\source\repos\db\Company\Company.Common\obj\Debug\net6.0\Companies.Common.AssemblyInfo.cs
+C:\Users\ruben\source\repos\db\Company\Company.Common\obj\Debug\net6.0\Companies.Common.csproj.CoreCompileInputs.cache
+C:\Users\ruben\source\repos\db\Company\Company.Common\obj\Debug\net6.0\Companies.Common.dll
+C:\Users\ruben\source\repos\db\Company\Company.Common\obj\Debug\net6.0\refint\Companies.Common.dll
+C:\Users\ruben\source\repos\db\Company\Company.Common\obj\Debug\net6.0\Companies.Common.pdb
+C:\Users\ruben\source\repos\db\Company\Company.Common\obj\Debug\net6.0\ref\Companies.Common.dll

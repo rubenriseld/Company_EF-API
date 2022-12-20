@@ -1,4 +1,6 @@
+using Companies.Common.DTOs;
 using Companies.Data.Contexts;
+using Companies.Data.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +15,8 @@ builder.Services.AddDbContext<CompanyContext>(
     options =>
         options.UseSqlServer(builder.Configuration.GetConnectionString("CompanyConnection")));
 
+ConfigureAutoMapper(builder.Services);
+RegisterServices(builder.Services);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -29,3 +33,22 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+void ConfigureAutoMapper(IServiceCollection services)
+{
+    var config = new MapperConfiguration(cfg =>
+    {
+        cfg.CreateMap<Company, CompanyDTO>().ReverseMap();
+        cfg.CreateMap<Department, DepartmentDTO>().ReverseMap();
+        cfg.CreateMap<Employee, EmployeeDTO>().ReverseMap();
+        cfg.CreateMap<Title, TitleDTO>().ReverseMap();
+        cfg.CreateMap<EmployeeTitle, EmployeeTitleDTO>().ReverseMap();
+    });
+    var mapper = config.CreateMapper();
+    services.AddSingleton(mapper);
+}
+
+void RegisterServices(IServiceCollection services)
+{
+    services.AddScoped<IDbService, DbService>();
+}
