@@ -15,7 +15,7 @@ namespace Companies.API.Controllers
         // GET: api/<CoursesController>
         [HttpGet]
         public async Task<IResult> Get() =>
-            await _db.HttpGetAsync<Title, EmployeeDTO>();
+            await _db.HttpGetAsync<Title, TitleDTO>();
 
         // GET api/<CoursesController>/5
         [HttpGet("{id}")]
